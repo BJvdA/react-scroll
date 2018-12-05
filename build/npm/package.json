@@ -12,8 +12,7 @@
     "build": "babel modules -d build/npm/modules --ignore '**/__tests__/**' --plugins transform-class-properties && gulp",
     "clean": "rm -rf build/npm/modules",
     "test": "karma start",
-    "start": "npm run examples",
-    "prepare": "npm run build"
+    "start": "npm run examples"
   },
   "homepage": "https://github.com/fisshy/react-scroll",
   "bugs": {
@@ -59,16 +58,16 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.3",
     "mocha": "^3.2.0",
-    "react": "^16.6.1",
+    "react": "^16.6.3",
     "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^16.6.1",
+    "react-dom": "^16.6.3",
     "sinon": "^4.1.2",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2"
   },
   "peerDependencies": {
-    "react": "16.6.1",
-    "react-dom": "16.6.1"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "babel": {
     "presets": [
